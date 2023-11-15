@@ -9,3 +9,5 @@ code.js
 
 .eslintcache
 package-lock.json
+
+dist
