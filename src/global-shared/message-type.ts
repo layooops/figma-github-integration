@@ -1,0 +1,16 @@
+export enum MESSAGE_TYPES {
+  ROUTE_UPDATE = 'route-update',
+  GET_GITHUB_AUTH_TOKEN = 'get-github-auth-token',
+  GET_GITHUB_AUTH_TOKEN_RESPONSE = 'get-github-auth-token-response',
+  IMPORT_GITHUB_ISSUE = 'import-github-issue',
+  IMPORT_GITHUB_PROJECT_ISSUE = 'import-github-project-issue',
+  IMPORT_GITHUB_QUERY_ISSUE = 'import-github-query-issue',
+  IMPORT_GITHUB_PROJECT = 'import-github-project',
+  IMPORT_GITHUB_PULL_REQUEST = 'import-github-pull-request',
+  CLOSE_PLUGIN = 'close-plugin',
+  REMOVE_GITHUB_TOKEN = 'remove-github-token',
+  SEND_GITHUB_TOKEN = 'send-github-token',
+  RESYNC_GITHUB_ISSUE_RESPONSE = 'resync-github-issue-response',
+  SEND_GITHUB_SETTINGS = 'send-github-settings',
+  RESYNC_ERROR = 'resync-error',
+}

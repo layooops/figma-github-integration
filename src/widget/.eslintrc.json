@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "@conarti/feature-sliced/absolute-relative": 0,
+    "no-undef": 0
+  }
+}

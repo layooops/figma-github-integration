@@ -1,0 +1,16 @@
+{
+  "name": "Figma GitHub Integration",
+  "id": "1306216732737885211",
+  "api": "1.0.0",
+  "widgetApi": "1.0.0",
+  "main": "dist/widget.js",
+  "ui": {
+    "main": "dist/index.html"
+  },
+  "editorType": ["figma", "figjam"],
+  "containsWidget": true,
+  "networkAccess": {
+    "allowedDomains": ["https://api.github.com", "https://avatars.githubusercontent.com"],
+    "reasoning": "GitHub API for data and avatar service for user avatars."
+  }
+}

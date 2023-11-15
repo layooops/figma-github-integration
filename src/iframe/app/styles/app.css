@@ -1,0 +1,48 @@
+@import url(./reset.css);
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+
+  --fg-default: #242424;
+  --fg-muted: #636c76;
+  --fg-link: #0969da;
+
+  --bg-default: #ffffff;
+  --bg-muted: #f6f8fa;
+}
+
+body {
+  background-color: var(--bg-default);
+  color: var(--fg-default);
+  margin: 0;
+  display: grid;
+}
+
+.full-width {
+  width: 100% !important;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-default: #e6edf3;
+    --fg-muted: #7d8590;
+    --fg-link: #0969da;
+
+    --bg-default: rgb(13, 17, 23);
+    --bg-muted: rgb(22, 27, 34);
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.invincible {
+  visibility: hidden !important;
+}
+
+.visible {
+  visibility: visible;
+}

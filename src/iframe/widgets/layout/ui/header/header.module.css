@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background: #020409;
+  }
+}
