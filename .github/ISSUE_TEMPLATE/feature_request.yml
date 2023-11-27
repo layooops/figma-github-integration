@@ -1,0 +1,36 @@
+name: 🚀 Feature Proposal
+description: Suggest a new idea for Figma Github Integration Widget
+title: "[Feature]: "
+labels:
+  - feature
+projects:
+  - layooops/3
+assignees:
+  - vitaliiastakhov
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem overview
+      description: What problems could Figma Github Integration Widget solve that it doesn't?
+      placeholder: |-
+        I want to make positive changes, but our platform doesn't support it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Proposed Solutions
+      description: If you have thoughts and ideas to share, feel free to write.
+      placeholder: |-
+        Implement features to support positive changes.
+    validations:
+      required: false
