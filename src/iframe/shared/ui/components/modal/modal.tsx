@@ -83,17 +83,17 @@ export const Modal: ModalProps = (props) => {
 
   const defaultedProps = { ...props, title, subtitle };
 
-  const renderHeader = (header ?? ModalDefaultHeader)(defaultedProps);
-  const renderBody = (body ?? ModalDefaultBody)(defaultedProps);
-  const renderFooter = (footer ?? ModalDefaultFooter)(defaultedProps);
+  const headerMarkup = (header ?? ModalDefaultHeader)(defaultedProps);
+  const bodyMarkup = (body ?? ModalDefaultBody)(defaultedProps);
+  const renderMarkup = (footer ?? ModalDefaultFooter)(defaultedProps);
 
   return isMounted ? (
     <Portal id={MODAL_CONTAINER_ID}>
       <div className={classes.modal} ref={rootRef}>
         <div className={classes['modal-content']}>
-          {renderHeader}
-          {renderBody}
-          {renderFooter}
+          {headerMarkup}
+          {bodyMarkup}
+          {renderMarkup}
         </div>
       </div>
     </Portal>
